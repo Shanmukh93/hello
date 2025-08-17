@@ -12,7 +12,7 @@ function Login() {
     const correctPassword = 'def';
 
     if (username === correctUsername && password === correctPassword) {
-      navigate('/welcome');
+      navigate('/welcome',{ state: { username }});
     } else {
       setError('Invalid username or password');
     }
