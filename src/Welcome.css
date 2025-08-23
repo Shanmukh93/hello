@@ -1,0 +1,16 @@
+nav a:hover {
+  color: #ffd700; /* Gold */
+  background-color: rgba(60, 201, 201, 0.016);
+}
+
+nav a::after {
+  content: '';
+  margin-left: 5px;
+  transition: opacity 0.2s;
+  opacity: 0;
+}
+
+nav a:hover::after {
+  content: '👉';
+  opacity: 2;
+}
