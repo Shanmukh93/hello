@@ -9,8 +9,8 @@ body, html {
 
     .centered {
       display: flex;
-      align-items: top;
-      justify-content: top;
+      align-items: center;
+      justify-content: center;
       height: 50vh;
       flex-direction: column;
       transition: opacity 1s ease;
@@ -29,6 +29,9 @@ body, html {
       border: none;
       border-radius: 10px;
       cursor: pointer;
+      max-width: 50%;
+      align-items: center;
+      justify-content: center;
       box-shadow: 0 5px 15px rgba(0,0,0,0.2);
       transition: transform 0.2s;
     }
