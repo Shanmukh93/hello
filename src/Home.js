@@ -45,8 +45,9 @@ function Home() {
       <div id="wishPage" className="centered" ref={wishRef} style={{ display: 'none' }}>
         <h1 style={{ color:"#fff"}}>🎂 Happy Birthday!</h1>
         <p style={{ color:"#fff"}}>
-          Wishing you a day filled with love, laughter, cake, and wonderful surprises.
-          May all your dreams come true today and always!
+          Wishing you a whole year filled with love, laughter, cake, and wonderful surprises.
+          May all your dreams come true today and always!.
+          Enjoy every moment with your Favourite BTS Songs.
         </p>
         <div style={{ padding: "0px", textAlign: "center", backgroundColor:"White", width: "100%", alignItems:"center" }}>
           <p style={{ marginLeft:"0px",textAlign:"center" }}>After Click on Categories</p>
