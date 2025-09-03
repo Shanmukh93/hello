@@ -43,7 +43,7 @@ function Home() {
 
       {/* Birthday Wish Page */}
       <div id="wishPage" className="centered" ref={wishRef} style={{ display: 'none' }}>
-        <h1 style={{ color:"#fff"}}>🎂 Happy Birthday!</h1>
+        <h1 style={{ color:"#fff"}}>🎂 Happy Birthday Mamatha!</h1>
         <p style={{ color:"#fff"}}>
           Wishing you a whole year filled with love, laughter, cake, and wonderful surprises.
           May all your dreams come true today and always!.
