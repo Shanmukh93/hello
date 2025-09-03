@@ -3,7 +3,8 @@ import React from "react";
 function Contacts(){
     return(
         <div>
-            <p>This is Contact Page.</p>
+            <p>Surprise nachithe Please contact to Shanmukh.</p>
+            <p>Mari cringe la unte kshaminchandi...</p>
         </div>
     )
 }
