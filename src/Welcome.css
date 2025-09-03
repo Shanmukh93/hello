@@ -1,16 +1,33 @@
-nav a:hover {
+nav button {
+  background: none;
+  border: none;
+  color: inherit; /* inherit text color */
+  cursor: pointer;
+  font: inherit; /* inherit font styles */
+  padding: 0;
+  /* margin: 0 10px; */
+  position: relative; /* for ::after positioning */
+  transition: color 0.2s, background-color 0.2s;
+}
+
+nav button:hover {
   color: #ffd700; /* Gold */
   background-color: rgba(60, 201, 201, 0.016);
 }
 
-nav a::after {
+nav button::after {
   content: '';
   margin-left: 5px;
-  transition: opacity 0.2s;
   opacity: 0;
+  transition: opacity 0.2s;
+  /* position: absolute;
+  right: -20px; */
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-nav a:hover::after {
+nav button:hover::after {
   content: '👉';
-  opacity: 2;
+  opacity: 1;
 }
+

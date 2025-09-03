@@ -4,6 +4,7 @@ function Categories(){
     return(
         <div>
             <p>This is Categories.</p>
+            {console.log("Categories page")}
         </div>
     )
 }
