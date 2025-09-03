@@ -8,11 +8,11 @@ function Login() {
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    const correctUsername = 'abc';
-    const correctPassword = 'def';
+    const correctUsername = 'MAM';
+    const correctPassword = 'PRIVACY';
 
     if (username === correctUsername && password === correctPassword) {
-      navigate('/welcome',{ state: { username }});
+      navigate('/welcome ',{ state: { username }});
     } else {
       setError('Invalid username or password');
     }
@@ -25,14 +25,14 @@ function Login() {
         <div style={styles.inputGroup}>
           <input
             type="text"
-            placeholder="Username"
+            placeholder="first 3 letters in your name(Caps on!)."
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             style={styles.input}
           />
           <input
             type="password"
-            placeholder="Password"
+            placeholder="Password is privacy(Caps on!)."
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             style={styles.input}

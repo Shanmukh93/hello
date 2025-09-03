@@ -37,7 +37,7 @@ function Home() {
 
       {/* Landing Page */}
       <div id="landingPage" className="centered" ref={landingRef}>
-        <h1>🎉 Welcome!</h1>
+        <h1>🎉 For Special One!</h1>
         <button id="surpriseButton" ref={buttonRef}>🎁 Open Surprise</button>
       </div>
 
@@ -48,6 +48,9 @@ function Home() {
           Wishing you a day filled with love, laughter, cake, and wonderful surprises.
           May all your dreams come true today and always!
         </p>
+        <div style={{ padding: "0px", textAlign: "center", backgroundColor:"White", width: "100%", alignItems:"center" }}>
+          <p style={{ marginLeft:"0px",textAlign:"center" }}>After Click on Categories</p>
+        </div>
       </div>
     </div>
   );

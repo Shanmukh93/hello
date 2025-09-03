@@ -9,7 +9,7 @@ import Home from './Home';
 function Welcome() {
   const location = useLocation();
   const username = location.state?.username || 'User';
-  const [activeSection, setActiveSection] = useState('home'); // ← New state
+  const [activeSection, setActiveSection] = useState(''); // ← New state
 
   return (
     <div style={{ textAlign: 'center', padding: '5px' }}>
@@ -24,7 +24,7 @@ function Welcome() {
         }}
       />
       <p style={{ fontSize: '20px', fontWeight: 'bold', margin: '0px' }}>
-        Welcome, {username}!
+        Welcome, Mamatha!
       </p>
       <p>You have successfully logged in.</p>
 
@@ -71,7 +71,12 @@ function Welcome() {
         {activeSection === 'About' && <About />}
         {activeSection === 'Contacts' && <Contacts />}
         {/* Add more sections as needed */}
-      </div>
+        {activeSection === '' ? (
+          <p style={{ padding: "0px", textAlign: "center", marginTop: "50px" }}>
+            Please click on Home to start journey!!!
+          </p>
+        ): null}
+        </div>
     </div>
   );
 }
